@@ -15,6 +15,7 @@ if (! function_exists('home_route')) {
             return route('admin.home');
         }
 
+
         return route('user.home');
     }
 }
